@@ -12,7 +12,6 @@
   --font-family-allerta: "Allerta", Helvetica;
   --font-family-anonymous_pro: "Anonymous Pro", Helvetica;
   --font-family-lexend: "Lexend", Helvetica;
-  --font-family-lexend-bold: "Lexend-Bold", Helvetica;
 }
 .lexend-normal-black-38px {
   color: var(--black);
@@ -24,18 +23,10 @@
 
 .lexend-bold-black-38px {
   color: var(--black);
-  font-family: var(--font-family-lexend-bold);
+  font-family: var(--font-family-lexend);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 700;
-}
-
-.anonymouspro-normal-black-36px {
-  color: var(--black);
-  font-family: var(--font-family-anonymous_pro);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 400;
 }
 
 .anonymouspro-normal-black-81-3px {
@@ -46,14 +37,13 @@
   font-weight: 400;
 }
 
-.alice-normal-white-128px {
-  color: var(--white);
-  font-family: var(--font-family-alice);
-  font-size: var(--font-size-xxl);
+.anonymouspro-normal-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 400;
 }
 
-.border-4px-black {
-  border: 4px solid var(--black);
+:root {
 }
