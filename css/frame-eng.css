@@ -35,14 +35,14 @@
   width: 682px;
 }
 
-.frame-eng .rectangle-27-ug2sbj.animate-enter2 {
-  animation: animate-enter2-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+.frame-eng .rectangle-27-ug2sbj.animate-enter {
+  animation: animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(25px, 0);
 }
 
-@keyframes animate-enter2-frames {
+@keyframes animate-enter-frames {
   from{opacity: 0;
 transform: translate(25px, 0);
 }
@@ -65,14 +65,14 @@ transform: translate(0,0);
   width: 682px;
 }
 
-.frame-eng .rectangle-28-ug2sbj.animate-enter3 {
-  animation: animate-enter3-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+.frame-eng .rectangle-28-ug2sbj.animate-enter1 {
+  animation: animate-enter1-frames 0.20s ease-in-out 0.00s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(25px, 0);
 }
 
-@keyframes animate-enter3-frames {
+@keyframes animate-enter1-frames {
   from{opacity: 0;
 transform: translate(25px, 0);
 }
@@ -105,6 +105,7 @@ transform: translate(0,0);
 
 .frame-eng .rectangle-26-WOznwH {
   background-color: transparent;
+  border: 4px solid var(--black);
   box-shadow: 0px 4px 4px #00000040;
   height: 821px;
   left: 60px;
@@ -135,6 +136,7 @@ transform: translate(0,0);
 
 .frame-eng .rectangle-23-ug2sbj {
   background-color: transparent;
+  border: 4px solid var(--black);
   box-shadow: 0px 4px 4px #00000040;
   height: 1043px;
   left: 762px;
@@ -194,6 +196,11 @@ transform: translate(0,0);
 
 .frame-eng .dlrrr-0bK1jP {
   background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-alice);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
   height: auto;
   left: 311px;
   letter-spacing: 0.00px;
@@ -207,6 +214,11 @@ transform: translate(0,0);
 
 .frame-eng .a-0bK1jP {
   background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-alice);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
   height: auto;
   left: 22px;
   letter-spacing: 0.00px;
@@ -401,7 +413,7 @@ transform: translate(0,0);
 .frame-eng .line-3-WPWV0C {
   background-color: transparent;
   height: 3px;
-  left: 612px;
+  left: 2px;
   position: absolute;
   top: 2298px;
   width: 589px;
@@ -419,7 +431,7 @@ transform: translate(0,0);
 .frame-eng .line-5-WPWV0C {
   background-color: transparent;
   height: 3px;
-  left: 578px;
+  left: 2px;
   position: absolute;
   top: 3424px;
   width: 555px;
