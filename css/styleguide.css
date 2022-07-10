@@ -1,24 +1,18 @@
 :root { 
-  --alto: #d9d9d9;
   --black: #000000;
-  --cararra: #ebebeb;
-  --celeste: #cecece;
   --white: #ffffff;
  
   --font-size-l: 40px;
   --font-size-m: 38px;
   --font-size-s: 36px;
   --font-size-xl: 81.3px;
-  --font-size-xs: 22px;
   --font-size-xxl: 128px;
  
   --font-family-alice: "Alice", Helvetica;
   --font-family-allerta: "Allerta", Helvetica;
   --font-family-anonymous_pro: "Anonymous Pro", Helvetica;
-  --font-family-inter-light: "Inter-Light", Helvetica;
-  --font-family-inter-regular: "Inter-Regular", Helvetica;
   --font-family-lexend: "Lexend", Helvetica;
-  --font-family-playfair_display-regular: "Playfair Display-Regular", Helvetica;
+  --font-family-lexend-bold: "Lexend-Bold", Helvetica;
 }
 .lexend-normal-black-38px {
   color: var(--black);
@@ -30,18 +24,10 @@
 
 .lexend-bold-black-38px {
   color: var(--black);
-  font-family: var(--font-family-lexend);
+  font-family: var(--font-family-lexend-bold);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 700;
-}
-
-.alice-normal-white-128px {
-  color: var(--white);
-  font-family: var(--font-family-alice);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 400;
 }
 
 .anonymouspro-normal-black-36px {
@@ -60,14 +46,14 @@
   font-weight: 400;
 }
 
-.allerta-normal-white-40px {
+.alice-normal-white-128px {
   color: var(--white);
-  font-family: var(--font-family-allerta);
-  font-size: var(--font-size-l);
+  font-family: var(--font-family-alice);
+  font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 400;
 }
 
-.border-10px-cararra {
-  border: 10px solid var(--cararra);
+.border-4px-black {
+  border: 4px solid var(--black);
 }
