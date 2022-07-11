@@ -269,7 +269,7 @@ transform: translate(0,0);
 
 .frame-ptbr .line-3 {
   height: 3px;
-  left: 0;
+  left: -20;
   position: absolute;
   top: 0;
   width: 589px;
