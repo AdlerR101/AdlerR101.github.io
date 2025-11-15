@@ -13,6 +13,8 @@ Certificações: Inclua imagens ou PDFs de certificados obtidos em cursos ou eve
 
 Contato: Finalize com seus dados de contato, links para LinkedIn, GitHub ou outro canal relevante.
 
+-------
+
 Destaque seus Principais Projetos
 Inclua descrições detalhadas de projetos que demonstrem suas competências. Use imagens, gráficos ou links para o código (se for aplicável).
 
