@@ -4,34 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./scripts/main.js" defer></script>
 </head>
 <body>
-    <main>
-        <header>
-            <h1>adler rocha</h1>
-            <div>
-                <h4>contato</h4>
-                <ul>
+    <main class="content">
+        <header class="d-flex w-100 flex-column mt-4 header">
+            <div class="d-flex justify-content-between p-4 header-contatos">
+                <div class="header-imagem-nome d-flex gap-3">
+                    <figure class="container-imagem">
+                        <img class="img-fluid" src="./images/star.png" alt="Estrela">
+                    </figure>
+                    <h1>Adler Rocha Carvalho Soares</h1>
+                </div>
+                <ul class="d-flex justify-content-evenly flex-wrap gap-1">
                     <li>github</li>
                     <li>linkedin</li>
                     <li>discord</li>
                     <li>email</li>
+                    <li>whatsapp</li>
+                    <li>telegram</li>
                 </ul>
             </div>
-            <nav>
-                <h4>roleta</h4>
-                <ul>
-                    <li><a href="index.html"> inicio</a></li>
-                    <li><a href="cvskills.html"> curriculo e habilidades</a></li>                    
-                    <li><a href="proj.html">projetos pessoais</a></li>
-                    <li><a href="pesq.html">pesquisas e formação</a></li>
+            <nav class="header-navegacao p-3">
+                <ul class="d-flex justify-content-evenly">
+                    <li><a href="index.html" class="navegacao-item"> inicio</a></li>
+                    <li><a href="cvskills.html" class="navegacao-item"> curriculo e habilidades</a></li>                    
+                    <li><a href="proj.html" class="navegacao-item">projetos e colaborações</a></li>
+                    <li><a href="pesq.html" class="navegacao-item">pesquisas e estudos</a></li>
                 </ul>
-                
             </nav>
         </header>
-        <section>
-            <h2>oi tudo bem meu nome é adler wowza</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore quibusdam tempora deserunt, dolorem praesentium unde in aut consequuntur dicta nesciunt obcaecati ullam, sequi alias laborum. Dolorum tempore earum totam.</p>
+        <section class="portfolio-content p-4">
+            <h2 class="fs-1" >Quem sou eu?</h2>
+            <h5>Desenvolvedor e Artista Técnico em Formação | Especializando-se em Ferramentas de Produtividade e Open Source para Criação Digital</h5>
+            <p class="fs-5 d-flex">Sou um desenvolvedor em formação com uma paixão pela interseção entre criatividade e eficiência. Minha jornada autodidata em modelagem 3D e game design forneceu uma base sólida em pipelines de produção digital. Atualmente, curso Análise e Desenvolvimento de Sistemas na FATEC, onde canalizo essa experiência para um objetivo claro: projetar e desenvolver ferramentas e frameworks de código aberto que otimizem fluxos de trabalho, aumentem a produtividade e resolvam problemas práticos nas áreas de criação e desenvolvimento.</p>
         </section>
     </main>
 </body>

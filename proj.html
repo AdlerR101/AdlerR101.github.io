@@ -4,34 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./scripts/main.js" defer></script>
 </head>
 <body>
-    <main>
-        <header>
-            <h1>adler rocha</h1>
-            <div>
-                <h4>contato</h4>
-                <ul>
+    <main class="content">
+        <header class="d-flex w-100 flex-column mt-4 header">
+            <div class="d-flex justify-content-between p-4 header-contatos">
+                <div class="header-imagem-nome d-flex gap-3">
+                    <figure class="container-imagem">
+                        <img class="img-fluid" src="./images/star.png" alt="Estrela">
+                    </figure>
+                    <h1>Adler Rocha Carvalho Soares</h1>
+                </div>
+                <ul class="d-flex flex-wrap gap-3">
                     <li>github</li>
                     <li>linkedin</li>
                     <li>discord</li>
                     <li>email</li>
+                    <li>whatsapp</li>
+                    <li>telegram</li>
                 </ul>
             </div>
-            <nav>
-                <h4>roleta</h4>
-                <ul>
-                    <li><a href="index.html"> inicio</a></li>
-                    <li><a href="cvskills.html"> curriculo e habilidades</a></li>
-                    <li><a href="proj.html">projetos pessoais</a></li>
-                    <li><a href="pesq.html">pesquisas e formação</a></li>
+            <nav class="header-navegacao p-3">
+                <ul class="d-flex justify-content-evenly">
+                    <li><a href="index.html" class="navegacao-item"> inicio</a></li>
+                    <li><a href="cvskills.html" class="navegacao-item"> curriculo e habilidades</a></li>                    
+                    <li><a href="proj.html" class="navegacao-item">projetos e colaborações</a></li>
+                    <li><a href="pesq.html" class="navegacao-item">pesquisas e estudos</a></li>
                 </ul>
-                
             </nav>
         </header>
-        <section>
-            <h2>Projetos pessoais e colaborações</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, tempora inventore corrupti, in sint quia autem voluptatibus aspernatur, deleniti voluptas soluta necessitatibus ut recusandae harum mollitia tempore quaerat odio? Incidunt.</p>
+        <section class="portfolio-content p-4">
+            <div>
+                <h2>Projetos Acadêmicos</h2>
+                <h4>DevL00P - FATEC API 2025/2º Semestre</h4>
+                <h4>Battle² - FAM Projeto Interdisciplinar</h4>
+            </div>
+            <div>
+                <h2>Projetos Pessoais</h2>
+                <h4>Study Hierarchy</h4>
+                <h4>Library Social Media</h4>
+                <h4>Unificador Escolar</h4>
+            </div>
+            <div>
+                <h4>Proj. ARCS</h4>
+                <h2>Participações e Contribuições</h2>
+                <h4>Diretor de Projetos da Atlética Pingução</h4>
+                <h4>3º Lugar no CRIA - Crefisa e FAM</h4>
+            </div>
         </section>
     </main>
 </body>

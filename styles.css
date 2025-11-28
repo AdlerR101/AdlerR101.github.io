@@ -1,0 +1,82 @@
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-contatos {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.fixador {
+    max-width: 50%;
+}
+
+.container-imagem {
+    width: 20%;
+    height: auto;
+}
+
+.header-imagem-nome {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-imagem-nome img {
+   width: 100%;
+   height: 100%;
+}
+
+.header-imagem-nome h1 {
+    width: 25%;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.header-navegacao ul, .header-contatos ul {
+    list-style: none;
+}
+
+.header-contatos ul {
+    width: 13%;
+}
+
+.header-navegacao ul li {
+    width: 100%;
+}
+
+.header-navegacao a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s all ease;
+    padding: 10px;
+}
+
+.header-navegacao a:hover {
+    transform: translateY(5px);
+}
+
+.navegacao-item.active {
+    transform: translateY(10px);
+}
+
+.portfolio-content {
+    height: 60vh;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.descricao {
+    text-align: justify;
+}
+
+.formacao-coluna {
+    width: 80%;
+    margin: 2;
+}
+
+.formacao {
+    width: 50%;
+}
