@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+    body {
+        background-image: url("./images/flores.png"); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
@@ -28,19 +36,216 @@
                     <li>telegram</li>
                 </ul>
             </div>
-            <nav class="header-navegacao p-3">
-                <ul class="d-flex justify-content-evenly">
-                    <li><a href="index.html" class="navegacao-item"> inicio</a></li>
-                    <li><a href="cvskills.html" class="navegacao-item"> curriculo e habilidades</a></li>                    
-                    <li><a href="proj.html" class="navegacao-item">projetos e colaborações</a></li>
-                    <li><a href="pesq.html" class="navegacao-item">pesquisas e estudos</a></li>
-                </ul>
-            </nav>
         </header>
+        <Nav>
+            <nav class="header-navegacao p-3">
+              <div class="nav nav-pills h3 justify-content-between" id="nav-tab" role="tablist">
+                <button
+                  class="nav-link portfolio-content3 active"
+                  id="nav-inicio-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-inicio"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-inicio"
+                  aria-selected="true"
+                >
+                  Inicio
+                </button>
+                <button
+                  class="nav-link portfolio-content3"
+                  id="nav-formacao-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-formacao"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-formacao"
+                  aria-selected="false"
+                >
+                  Formação e Cursos
+                </button>
+                <button
+                  class="nav-link portfolio-content3"
+                  id="nav-projetos-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-projetos"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-projetos"
+                  aria-selected="false"
+                >
+                  Projetos e Participações
+                </button>
+                <button
+                  class="nav-link portfolio-content3"
+                  id="nav-pesquisa-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-pesquisa"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-pesquisa"
+                  aria-selected="false"
+                >
+                  Pesquisas e Estudos
+                </button>
+              </div>
+        </nav>
         <section class="portfolio-content p-4">
-            <h2 class="fs-1" >Quem sou eu?</h2>
-            <h5>Desenvolvedor e Artista Técnico em Formação | Especializando-se em Ferramentas de Produtividade e Open Source para Criação Digital</h5>
-            <p class="fs-5 d-flex">Sou um desenvolvedor em formação com uma paixão pela interseção entre criatividade e eficiência. Minha jornada autodidata em modelagem 3D e game design forneceu uma base sólida em pipelines de produção digital. Atualmente, curso Análise e Desenvolvimento de Sistemas na FATEC, onde canalizo essa experiência para um objetivo claro: projetar e desenvolver ferramentas e frameworks de código aberto que otimizem fluxos de trabalho, aumentem a produtividade e resolvam problemas práticos nas áreas de criação e desenvolvimento.</p>
+            <div class="tab-content" id="nav-tabContent">
+                <div 
+                class="tab-pane fade show active" 
+                id="nav-inicio" 
+                role="tabpanel" 
+                aria-labelledby="nav-inicio-tab"
+                >
+                    <div>
+                        <h2 class="fs-1" >Quem sou eu?</h2>
+                        <h5>Desenvolvedor e Artista Técnico em Formação | Especializando-se em Ferramentas de Produtividade e Open Source para Criação Digital</h5>
+                        <p class="fs-5 d-flex">Sou um desenvolvedor em formação com uma paixão pela interseção entre criatividade e eficiência. 
+                            Minha jornada autodidata em modelagem 3D e game design forneceu uma base sólida em pipelines de produção digital. 
+                            Atualmente, curso Análise e Desenvolvimento de Sistemas na FATEC, onde canalizo essa experiência para um objetivo claro: 
+                            projetar e desenvolver ferramentas e frameworks de código aberto que otimizem fluxos de trabalho,
+                            aumentem a produtividade e resolvam problemas práticos nas áreas de criação e desenvolvimento.</p>
+                    </div>
+                </div>
+                <div
+                class="tab-pane fade"
+                id="nav-formacao"
+                role="tabpanel"
+                aria-labelledby="nav-formacao-tab"
+                >
+                <div class="container text-center">
+                    <div class="row allign-items-start">
+                        <div class="col">
+                            <h2>Formação Acadêmica</h2>
+                            <div>
+                                <div class="flex-column">
+                                    <div class="d-flex flex-column">
+                                        <div class="d-flex justify-content-between">
+                                            <h5 class="m-0 fw-bold">Tecnólogo em ADS - FATEC Prof. Jessen Vidal</h5>
+                                            <i>São José dos Campos, SP</i>
+                                        </div>
+                                        <p class="d-flex mb-2">2025</p>
+                                        <p class="descricao">Atualmente cursando Análise e Desenvolvimento de Sistemas, a formação abrange uma coleção completa em desenvolvimento de software, com foco prático em Front-end, Back-end e Gestão de Projetos de Software.</p>
+                                    </div>
+                                </div>   
+                                <div class="flex-column">
+                                    <div class="d-flex flex-column">
+                                        <div class="d-flex justify-content-between">
+                                            <h5 class="m-0 fw-bold">Design de Games - Universidade FAM Augusta</h5>
+                                            <i>São Paulo, SP</i>
+                                        </div>
+                                        <p class="d-flex mb-2">2023</p>
+                                    </div>
+                                </div>   
+                                <div class="flex-column">
+                                    <div class="d-flex flex-column">
+                                        <div class="d-flex justify-content-between">
+                                            <h5 class="m-0 fw-bold">Ensino Médio - Escola Estadual Colaço</h5>
+                                            <i>Santana de Parnaíba, SP</i>
+                                        </div>
+                                        <p class="d-flex mb-2">2022</p>
+                                    </div>
+                                </div>   
+                                <div class="flex-column">
+                                    <div class="d-flex flex-column">
+                                        <div class="d-flex justify-content-between">
+                                            <h5 class="m-0 fw-bold">Cambridge Test Nível B2 - CNA</h5>
+                                            <i>Paraty, RJ</i>
+                                        </div>
+                                        <p class="d-flex mb-2">2019</p>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h2>Cursos Completos</h2>
+                            <div class="d-grid row-gap-4">
+                                <div class="d-flex col justify-content-evenly gap-2">
+                                        <div class="d-flex flex-column" size="2">
+                                            <div class="col-md-8 align-self-center">
+                                                <img class="img-fluid" src="./images/Blender.svg" alt="Vetor Blender">
+                                            </div>
+                                            <h5 class="m-0 fw-bold">Retrato Realista, CG Cookie</h5>
+                                            <a href="https://cgcookie.com/courses/human-realistic-portrait-creation-with-blender" target="#">website</a>
+                                            <p class="m-0">2022</p>
+                                        </div>                            
+                                        <div class="d-flex flex-column" size="2">
+                                            <div class="col-md-8 align-self-center">
+                                                <img class="img-fluid" src="./images/Figma.svg" alt="Vetor Figma">
+                                            </div>
+                                            <h5 class="m-0 fw-bold ">Figma, EBAC</h5>
+                                            <a href="https://ebaconline.com.br/figma" target="#">website</a>
+                                            <p class="m-0">2022</p>
+                                        </div>                            
+                                </div>
+                                <div class="d-flex col justify-content-evenly gap-2">
+                                        <div class="d-flex flex-column" size="2">
+                                            <div class="col-md-8 align-self-center">
+                                                <img class="img-fluid" src="./images/Photoshop.svg" alt="Vetor Photoshop">
+                                            </div>
+                                            <h5 class="m-0 fw-bold ">Photoshop, EBAC</h5>
+                                            <a href="https://ebaconline.com.br/photoshop" target="#">website</a>
+                                            <p class="m-0">2022</p>
+                                        </div>
+                                        <div class="d-flex flex-column" size="2">
+                                            <div class="col-md-8 align-self-center">
+                                                <img class="img-fluid" src="./images/Blueprint.svg" alt="Vetor matte-painting">
+                                            </div>
+                                            <h5 class="m-0 fw-bold">Matte Painting, EBAC</h5>
+                                            <a href="https://ebaconline.com.br/matte-painting" target="#">website</a>
+                                            <p class="m-0">2022</p>
+                                        </div>                              
+                                </div>
+                                <div class="d-flex flex-column" size="2">
+                                            <div class="col-md-8 align-self-center">
+                                                <img class="img-fluid" src="./images/Brush.svg" alt="Vetor concept-art">
+                                            </div>
+                                            <h5 class="m-0 fw-bold ">Concept Art, Domestika</h5>
+                                            <a href="https://www.domestika.org/en/courses/982-adobe-photoshop-for-concept-art/course" target="#">website</a>
+                                            <p class="m-0">2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="tab-pane fade"
+                id="nav-projetos"
+                role="tabpanel"
+                aria-labelledby="nav-projetos-tab"
+            >
+                <div>
+                    <h2>Projetos Acadêmicos</h2>
+                    <h4>DevL00P - FATEC API 2025/2º Semestre</h4>
+                    <h4>Battle² - FAM Projeto Interdisciplinar</h4>
+                </div>
+                <div>
+                    <h2>Projetos Pessoais</h2>
+                    <h4>Study Hierarchy</h4>
+                    <h4>Library Social Media</h4>
+                    <h4>Unificador Escolar</h4>
+                </div>
+                <div>
+                    <h4>Proj. ARCS</h4>
+                    <h2>Participações e Contribuições</h2>
+                    <h4>Diretor de Projetos da Atlética Pingução</h4>
+                    <h4>3º Lugar no CRIA - Crefisa e FAM</h4>
+                </div>
+            </div>
+            <div
+                class="tab-pane fade"
+                id="nav-pesquisa"
+                role="tabpanel"
+                aria-labelledby="nav-pesquisa-tab"
+            >
+                <h2>Pesquisas</h2>
+                <h4>Betrayal at House on the Hill</h4>
+                <h4>Resident Evil 7: Banned Footage.v2 (Blackjack-21)</h4>
+                <h4>Roblox - O Menor Obby Possivel</h4>
+            </div>
+        </div>
         </section>
     </main>
 </body>
